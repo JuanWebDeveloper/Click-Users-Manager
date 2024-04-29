@@ -1,6 +1,7 @@
 import json
 import os
 
+# Function to read data from 'users_data.json' file
 def read_data_from_json():
     # Check if the file 'users_data.json' exists
     if not os.path.isfile('./data/users_data.json'):
@@ -11,3 +12,10 @@ def read_data_from_json():
     with open('./data/users_data.json', 'r') as f:
         data = json.load(f)
     return data
+
+# Function to write data to 'users_data.json' file
+def write_data_to_json(data):
+    # Open the file and write the data to it
+    with open('./data/users_data.json', 'w') as f:
+        json.dump(data, f)
+        
