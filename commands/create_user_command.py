@@ -1,6 +1,5 @@
 import click
-from utils.json_data_manager import read_data_from_json
-from utils.json_data_manager import write_data_to_json
+from utils.json_data_manager import read_data_from_json, write_data_to_json
 
 # Define the 'create_user' command
 @click.command("create_user")
