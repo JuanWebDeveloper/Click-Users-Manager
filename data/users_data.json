@@ -1,1 +1,4 @@
-[{"id": 1, "name": "Juan", "lastname": "Vargas", "age": 25}, {"id": 2, "name": "Pedro", "lastname": "Perez", "age": 30}, {"id": 3, "name": "Maria", "lastname": "Gomez", "age": 20}, {"id": 4, "name": "Carlos", "lastname": "Garces", "age": 20}, {"id": 5, "name": "Juliana", "lastname": "Garces", "age": 17}, {"id": 6, "name": "Nelson", "lastname": "Vargas", "age": 46}, {"id": 7, "name": "Dilan", "lastname": "salazar", "age": 18}]
+[
+ { "id": 1, "name": "John", "lastname": "Doe", "age": 25 },
+ { "id": 2, "name": "Jane", "lastname": "Smith", "age": 30 }
+]
